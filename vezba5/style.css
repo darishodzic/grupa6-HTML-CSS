@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header,
+footer,
+.main {
+  width: 100%;
+}
+
+header,
+footer {
+  height: 13vh;
+  margin-bottom: 10px;
+  background-color: yellow;
+}
+.main {
+  height: 70vh;
+  display: flex;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+footer {
+  margin: 0;
+}
+
+article,
+nav,
+aside {
+  height: 100%;
+  background-color: yellow;
+}
+
+article {
+  width: 55%;
+  margin: 0 10px;
+}
+nav {
+  width: 25%;
+}
+
+aside {
+  width: 20%;
+}
