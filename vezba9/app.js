@@ -154,3 +154,48 @@
 // "darisdaris"
 // console.log("daris" === "daris");
 //-----------------------------------------
+
+// a = parseInt(prompt("UNesi broj izmedju 1-7"));
+// switch (a) {
+//   case 1:
+//     console.log("Ponedeljak");
+//     break;
+//   case 2:
+//     console.log("Utorak");
+//     break;
+//   case 3:
+//     console.log("Sreda");
+//     break;
+//   case 4:
+//     console.log("Cetvertak");
+//     break;
+//   case 5:
+//     console.log("Petak");
+//     break;
+//   case 6:
+//     console.log("Subota");
+//     break;
+//   case 7:
+//     console.log("Nedelja");
+//     break;
+//   default:
+//     console.log("Pogresan UNsos");
+// }
+
+// a = parseInt(prompt("Uneis broj izmedju 0 - 100"));
+
+// switch (true) {
+//   case a > 0 && a < 30:
+//     console.log("LOW");
+//     break;
+//   case a > 30 && a < 60:
+//     console.log("Medium");
+//     break;
+//   case a > 70 && a < 100:
+//     console.log("HIGH");
+//     break;
+//   default:
+//     console.log("Pogresan unos");
+// }
+
+console.log("Daris");
