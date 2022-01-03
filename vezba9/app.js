@@ -198,4 +198,82 @@
 //     console.log("Pogresan unos");
 // }
 
-console.log("Daris");
+// console.log("Daris");
+//------------------------------------------------------------------------
+
+// for (i = 1; i <= 10; i++) {
+//   if (i % 2 === 0) {
+//     console.log(i);
+//   }
+// }
+
+//----------------------------------------------------------
+//----------------------------------------------------------
+// pocetna = parseInt(prompt("Unesi pocetnu vrednost"));
+// krajnja = parseInt(prompt("Unesi kranjnu vrednost"));
+
+// for (i = pocetna; i <= krajnja; i++) {
+//   if (i % 2 === 0) {
+//     console.log(i);
+//   }
+// }
+
+//----------------------------------------------------------
+
+// for (i = 0; i <= 15; i++) {
+//   if (i % 2 === 0) {
+//     console.log(`Broj ${i} je paran `);
+//   } else {
+//     console.log(`Broj ${i} je neparan `);
+//   }
+// }
+
+//----------------------------------------------------------
+
+// pocetna = parseInt(prompt("Unesi pocetnu vrednost"));
+// krajnja = parseInt(prompt("Unesi kranjnu vrednost"));
+
+// for (i = pocetna; i <= krajnja; i++) {
+//   if (i % 5 === 0 && i % 3 === 0) {
+//     console.log("fizzbuzz");
+//   } else if (i % 5 === 0) {
+//     console.log("buzz");
+//   } else if (i % 3 === 0) {
+//     console.log("fizz");
+//   } else {
+//     console.log(i);
+//   }
+// }
+
+//----------------------------------------------------------
+
+// kolicina = parseInt(prompt("Koliko brojeve zelite da uneste"));
+// sum = 0;
+// for (i = 0; i < kolicina; i++) {
+//   unos = parseInt(prompt("Unesi broj"));
+//   sum += unos;
+// }
+// console.log(sum / kolicina);
+//--------------------------
+// pocetna = parseInt(prompt("Unesi pocetnu vrednost"));
+// krajnja = parseInt(prompt("Unesi kranjnu vrednost"));
+
+// sumP = 0;
+// sumN = 0;
+
+// for (i = pocetna; i < krajnja; i++) {
+//   if (i % 2 === 0) {
+//     sumP += i;
+//   } else {
+//     sumN += i;
+//   }
+// }
+
+// console.log("Suma parnih je: ", sumP);
+// console.log("Suma neparnih je: ", sumN);
+
+//--------------------------------------
+//Domaci:
+//Uneti string i  za dati string ispisati svako slovo pojedinacno sa for petljom
+//Example: unos: DARIS , izlaz: D A R I S
+//--------------------------------------
