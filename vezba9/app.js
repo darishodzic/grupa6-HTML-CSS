@@ -277,3 +277,72 @@
 //Uneti string i  za dati string ispisati svako slovo pojedinacno sa for petljom
 //Example: unos: DARIS , izlaz: D A R I S
 //--------------------------------------
+
+// unos = prompt("Unesi rec");
+
+// for (i = 0; i < unos.length; i++) {
+//   console.log(unos[i]);
+// }
+
+//--------------------------------------
+
+// for (i = 7; i > 0; i--) {
+//   console.log(i);
+// }
+
+//--------------------------------------
+
+// for (i = 0; i < 7; i++) {
+//   for (j = 0; j < 7; j++) {
+//     console.log("unutrasnja for", j);
+//   }
+
+//   console.log("spoljasnja for", i);
+// }
+
+//--------------------------------------
+
+// for (i = 1; i <= 10; i++) {
+//   for (j = 1; j <= 10; j++) {
+//     console.log(i, "*", j, "=", i * j);
+//   }
+// }
+
+//--------------------------------------
+
+// sum = "";
+// char = " *";
+// for (i = 0; i < 5; i++) {
+//   console.log((sum += char));
+// }
+
+//--------------------------------------
+
+// unos = prompt("Unesi text");
+// unosR = "";
+
+// for (i = unos.length - 1; i >= 0; i--) {
+//   unosR += unos[i];
+// }
+// if (unos === unosR) {
+//   console.log("Vasa rec je palindrom");
+// } else {
+//   console.log("Vassa rec nije palindrom");
+// }
+
+//--------------------------------------
+
+// unos = prompt("Unesi broj: ");
+
+// for (i = 1; i <= unos; i++) {
+//   sum = "";
+
+//   for (j = 1; j <= i; j++) {
+//     sum += i;
+//   }
+//   console.log(sum);
+// }
+
+//--------------------------------------
+//DOmaci napraviti program da izracuna factorial unetog broja
+//factorial od 5 = 1*2*3*4*5 = 120
