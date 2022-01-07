@@ -346,3 +346,52 @@
 //--------------------------------------
 //DOmaci napraviti program da izracuna factorial unetog broja
 //factorial od 5 = 1*2*3*4*5 = 120
+
+// unos = parseInt(prompt("Unesite broj"));
+
+// fact = 1;
+// for (i = 1; i <= unos; i++) {
+//   fact *= i;
+// }
+// console.log(fact);
+
+// pocetna = parseInt(prompt("Unesi pocetnu vrednost"));
+// krajnja = parseInt(prompt("Unesi kranjnu vrednost"));
+
+// for (i = pocetna; i < krajnja; i++) {
+//   console.log(i ** 3);
+// }
+
+// pocetna = parseInt(prompt("Unesi pocetnu vrednost"));
+// krajnja = parseInt(prompt("Unesi kranjnu vrednost"));
+
+// for (i = pocetna; i < krajnja; i++) {
+//   delioci = 0;
+
+//   for (j = 1; j <= i; j++) {
+//     if (i % j === 0) {
+//       delioci++;
+//     }
+//   }
+//   if (delioci === 2) {
+//     console.log(i);
+//   }
+// }
+
+// prvi = parseInt(prompt("Unesi prvi broj"));
+// drugi = parseInt(prompt("Unesi drugi broj"));
+
+// for (i = prvi; i < 9000; i++) {
+//   if (i % prvi === 0 && i % drugi === 0) {
+//     console.log(i);
+//     break;
+//   }
+// }
+
+// kolicina = prompt("Unesite kolicinu:");
+// sum = "";
+// for (i = 0; i < kolicina; i++) {
+//   unos = prompt("unesite slovo");
+//   sum += unos;
+// }
+// console.log(sum);
