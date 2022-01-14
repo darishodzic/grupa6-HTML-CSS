@@ -442,15 +442,18 @@
 
 // console.log("Sredina je: ", zbir / kolicina);
 
-broj = Math.round(Math.random() * 10);
-unos = parseInt(prompt("Unesi broj"));
+// broj = Math.round(Math.random() * 10);
+// unos = parseInt(prompt("Unesi broj"));
 
-while (unos !== broj) {
-  if (unos > broj) {
-    unos = parseInt(prompt("Broj je too high try again"));
-  } else {
-    unos = parseInt(prompt("Broj je too small try again"));
-  }
-}
+// while (unos !== broj) {
+//   if (unos > broj) {
+//     unos = parseInt(prompt("Broj je too high try again"));
+//   } else {
+//     unos = parseInt(prompt("Broj je too small try again"));
+//   }
+// }
 
-console.log("Pogodiliste broj");
+// console.log("Pogodiliste broj");
+
+//Domaci:Napraviti kalkulator koji ce sve dok korisnik ne unese STOP pitati za operaciju +,-,*,/ i nakon odabira
+//pitati za dva broja na koje ce se primeniti operacija i ispisati rezultat i sve se ponoviti
