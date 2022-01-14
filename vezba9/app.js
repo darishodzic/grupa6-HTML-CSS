@@ -395,3 +395,62 @@
 //   sum += unos;
 // }
 // console.log(sum);
+
+// i = 0;
+// while (i < 5) {
+//   console.log(i);
+//   i++;
+// }
+
+// while (true) {
+//   console.log("asd");
+// }
+
+// unos = prompt("Unesite broj ili END");
+
+// while (unos.toUpperCase() !== "END") {
+//   unos = prompt("Unesite broj ili END");
+// }
+
+// unos = parseInt(prompt("Unesite broj: "));
+// sum = 0;
+// while (unos >= 0) {
+//   sum += unos;
+//   unos = parseInt(prompt("Unesite broj opet: "));
+// }
+
+// console.log(sum);
+
+// unos = prompt("Unesi nesto");
+
+// while (unos !== "END") {
+//   console.log(unos);
+//   unos = prompt("Unesi nesto opet");
+// }
+
+// console.log("KRAJ");
+
+// ocena = parseInt(prompt("Unesi ocenu 1-5"));
+// zbir = 0;
+// kolicina = 0;
+
+// while (ocena >= 1 && ocena <= 5) {
+//   zbir += ocena;
+//   kolicina++;
+//   ocena = parseInt(prompt("Unesi ocenu 1-5"));
+// }
+
+// console.log("Sredina je: ", zbir / kolicina);
+
+broj = Math.round(Math.random() * 10);
+unos = parseInt(prompt("Unesi broj"));
+
+while (unos !== broj) {
+  if (unos > broj) {
+    unos = parseInt(prompt("Broj je too high try again"));
+  } else {
+    unos = parseInt(prompt("Broj je too small try again"));
+  }
+}
+
+console.log("Pogodiliste broj");
