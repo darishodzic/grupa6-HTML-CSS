@@ -457,3 +457,90 @@
 
 //Domaci:Napraviti kalkulator koji ce sve dok korisnik ne unese STOP pitati za operaciju +,-,*,/ i nakon odabira
 //pitati za dva broja na koje ce se primeniti operacija i ispisati rezultat i sve se ponoviti
+
+// operator = prompt("Unesi operaciju");
+
+// while (operator !== "STOP") {
+//   prviBroj = parseInt(prompt("Unesite prvi broj"));
+//   drugiBroj = parseInt(prompt("Unesite drugi broj"));
+//   if (operator === "+") {
+//     console.log(prviBroj + drugiBroj);
+//   } else if (operator === "-") {
+//     console.log(prviBroj - drugiBroj);
+//   } else if (operator === "*") {
+//     console.log(prviBroj * drugiBroj);
+//   } else if (operator === "/") {
+//     console.log(prviBroj / drugiBroj);
+//   }
+//   operator = prompt("Unesi operaciju");
+// }
+
+//-----------------------------------------------
+
+// tezina = prompt("Unesite vasu tezinu");
+// visina = prompt("Unesite vasu visinu");
+
+// bmi = tezina / visina ** 2;
+
+// if (bmi < 18.5) {
+//   console.log("Underweight");
+// } else if (bmi < 25) {
+//   console.log("Normal");
+// } else if (bmi < 30) {
+//   console.log("Overweaight");
+// } else if (bmi > 30) {
+//   console.log("Obese");
+// }
+
+//-----------------------------------------------
+
+// n = parseInt(prompt("Unesi krajnji broj"));
+// brojac = 1;
+
+// while (brojac <= n) {
+//   if (brojac % 2 !== 0) {
+//     console.log(brojac);
+//   }
+//   brojac++;
+// }
+
+//-----------------------------------------------
+
+// unos = prompt("Unesite nesto");
+
+// while (unos !== "STOP") {
+//   if (unos == 0) {
+//     console.log("ZERO");
+//   } else if (unos > 0) {
+//     console.log("POSITIVE");
+//   } else if (unos < 0) {
+//     console.log("NEGATIVE");
+//   }
+//   unos = prompt("Unesite nesto opet");
+// }
+//---------------------------------
+// pocetna = prompt("Unesi pocetnu vrednost");
+// krajnju = prompt("Unesi krajnju vrednost");
+
+// for (i = pocetna; i <= krajnju; i++) {
+//   if (i % 4 === 0) {
+//     console.log(i);
+//   }
+// }
+//--------------------------------------------
+
+// broj = parseInt(prompt("Unesi broj"));
+// brojac = 1;
+// factorial = 1;
+
+// while (brojac <= broj) {
+//   factorial *= brojac;
+//   brojac++;
+// }
+// console.log(factorial);
+
+//--------------------------------------------
+
+// unos = prompt("Unesite rec");
+// newString = unos.slice(1) + unos[0];
+// console.log(newString);
