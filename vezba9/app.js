@@ -619,12 +619,123 @@
 // console.log(sum);
 //=====================================
 
-arr = [2, 12, 1, 7, 19, 74, 23, 4, 3];
-max = arr[0];
+// arr = [2, 12, 1, 7, 19, 74, 23, 4, 3];
+// max = arr[0];
 
-for (i = 0; i < arr.length; i++) {
-  if (max < arr[i]) {
-    max = arr[i];
+// for (i = 0; i < arr.length; i++) {
+//   if (max < arr[i]) {
+//     max = arr[i];
+//   }
+// }
+// console.log(max);
+
+//============================================================
+
+// fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+// console.log(fruits);
+
+// newLength = fruits.push("NEW");
+
+// console.log(fruits);
+// console.log("newLength", newLength);
+
+//============================================================
+
+// fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+// console.log(fruits);
+// returnValue = fruits.pop();
+// console.log(fruits);
+
+// console.log("RETURN=VALUE:", returnValue);
+
+//============================================================
+
+// fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+// strinfOfFruits = fruits.join("+");
+
+// console.log(fruits);
+// console.log(strinfOfFruits);
+
+//============================================================
+
+// fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+// console.log(fruits);
+// a = fruits.shift();
+// console.log(fruits);
+// console.log(a);
+
+//===================================================
+
+// fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+// console.log(fruits);
+// a = fruits.unshift("NOVI");
+// console.log(fruits);
+// console.log(a);
+
+//===================================================
+
+// fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+// nesto = [true, 2, "ccc", "asdsa"];
+
+// noviAr = fruits.concat(nesto, [2, "Novi", "Treci"]);
+
+// console.log(noviAr);
+
+//===================================================
+
+// fruits = ["Banana", "Orange", "Apple", "Mango"];
+// deletedItems = fruits.splice(1, 2, "NOVIIII", "Nesto");
+
+// console.log(fruits);
+// console.log(deletedItems);
+
+//===================================================
+
+// fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+// a = fruits.slice(1, 4);
+// console.log(fruits);
+// console.log(a);
+
+//===================================================
+
+// food1 = ["Noodle", "Pasta", "Ice-cream"];
+// food2 = ["Fries", "Ice-cream", "Pizza"];
+
+// sameFood = [];
+
+// for (i = 0; i < food1.length; i++) {
+//   for (j = 0; j < food2.length; j++) {
+//     if (food1[i] === food2[j]) {
+//       sameFood.push(food1[i]);
+//     }
+//   }
+// }
+
+// console.log(sameFood);
+
+//===================================================
+
+// fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+
+// for (fruit of fruits) {
+//   console.log(fruit);
+// }
+
+//===================================================
+
+data = [0, 1, false, 2, undefined, 3, "", null];
+newData = [];
+for (i = 0; i < data.length; i++) {
+  if (data[i]) {
+    newData.push(data[i]);
   }
 }
-console.log(max);
+
+console.log(data);
+console.log(newData);
