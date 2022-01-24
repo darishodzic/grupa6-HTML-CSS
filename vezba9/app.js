@@ -729,13 +729,85 @@
 
 //===================================================
 
-data = [0, 1, false, 2, undefined, 3, "", null];
-newData = [];
-for (i = 0; i < data.length; i++) {
-  if (data[i]) {
-    newData.push(data[i]);
-  }
-}
+// data = [0, 1, false, 2, undefined, 3, "", null];
+// newData = [];
+// for (i = 0; i < data.length; i++) {
+//   if (data[i]) {
+//     newData.push(data[i]);
+//   }
+// }
 
-console.log(data);
-console.log(newData);
+// console.log(data);
+// console.log(newData);
+
+// data = [1, 2, 3, 1, 2];
+
+// newData = [];
+
+// for (el of data) {
+//   if (el !== 2 && el !== 1) {
+//     newData.push(el);
+//   }
+// }
+
+// console.log(newData);
+//==============================================================
+// kolicina = parseInt(prompt("Koliko zelite elemenate"));
+// elements = [];
+// for (i = 0; i < kolicina; i++) {
+//   el = prompt("Unesi element");
+//   elements.push(el);
+// }
+// console.log(elements);
+
+// odabir = prompt("da li je ok?");
+
+// while (odabir !== "0") {
+//   promena = prompt("Unesite 1 da dodate element ili 2 da maknete element!");
+//   inx = parseInt(prompt("Unesite index"));
+//   if (promena === "1") {
+//     noviEl = prompt("Unesite element");
+//     elements.splice(inx, 0, noviEl);
+//   } else if (promena === "2") {
+//     elements.splice(inx, 1);
+//   }
+//   console.log(elements);
+//   odabir = prompt("da li je ok?");
+// }
+//==============================================================
+
+// data = [3, 21, 32, 36, 37, 56, 8, 12, 16, 18, 20, 68, 69];
+
+// unos = parseInt(prompt(`Unesite trazeni broj: ${data}`));
+
+// for (i = 0; i < data.length; i++) {
+//   if (data[i] === unos) {
+//     console.log("Vas broj", unos, "je na indeksu: ", i);
+//     break;
+//   }
+// }
+//==============================================================
+
+// arr1 = [3, 21, 32, 36, 37, 56];
+// arr2 = [3, 21, 31, 36, 37, 56, 2];
+// tacnost = true;
+
+// if (arr1.length !== arr2.length) {
+//   console.log("Nisu isti");
+//   tacnost = false;
+// } else if (tacnost) {
+//   for (i = 0; i < arr1.length; i++) {
+//     if (arr1[i] !== arr2[i]) {
+//       tacnost = false;
+//       break;
+//     }
+//   }
+
+//   if (tacnost) {
+//     console.log("Isti su");
+//   } else {
+//     console.log("Nisu");
+//   }
+// }
+
+//==============================================================
