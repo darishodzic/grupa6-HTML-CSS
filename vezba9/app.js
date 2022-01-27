@@ -907,19 +907,83 @@
 
 //==============================================
 
-arr = [3, 6, 23, 9, 44, 14, -254, 0, 83, 22, 5];
-min1 = arr[0];
-min2 = arr[0];
+// arr = [3, 6, 23, 9, 44, 14, -254, 0, 83, 22, 5];
+// min1 = arr[0];
+// min2 = arr[0];
 
-for (el of arr) {
-  if (el < min1) {
-    min1 = el;
-  } else if (el < min2 && el > min1) {
-    min2 = el;
-  }
-}
+// for (el of arr) {
+//   if (el < min1) {
+//     min1 = el;
+//   } else if (el < min2 && el > min1) {
+//     min2 = el;
+//   }
+// }
 
-console.log("Najmanji je", min1);
-console.log("drugi manji je", min2);
+// console.log("Najmanji je", min1);
+// console.log("drugi manji je", min2);
 
 //==============================================
+
+// function find(niz) {
+//   min1 = niz[0];
+//   min2 = niz[0];
+
+//   for (el of niz) {
+//     if (min1 > el) {
+//       min1 = el;
+//     } else if (min2 > el && min1 < el) {
+//       min2 = el;
+//     }
+//   }
+//   console.log("Najmanji je: ", min1);
+//   console.log("Drugi Najmanji je: ", min2);
+// }
+
+// find([3, 5, 1, 9, 4, 2]);
+
+//=================================================
+
+// function find(niz) {
+//   max = niz[0];
+//   for (el of niz) {
+//     if (Math.abs(max) <= Math.abs(el)) {
+//       max = el;
+//     }
+//   }
+//   console.log("Broj sa najvise cifara je : ", max);
+// }
+
+// find([3, 23, 843, 41, -1233, 1233]);
+
+//========================================
+
+// data = [3, 0, 24, 54, 0, 123, 0, 32, 63];
+
+// function sort(niz) {
+//   for (i = 0; i < niz.length; i++) {
+//     if (niz[i] === 0) {
+//       niz.splice(i, 1);
+//       niz.push(0);
+//     }
+//   }
+//   console.log(niz);
+// }
+
+// sort(data);
+
+//===================================
+// data = [3, 24, 54, 123, 32, 63];
+
+// function calculateAverage(niz) {
+//   sum = 0;
+//   for (el of niz) {
+//     sum += el;
+//   }
+//   console.log("Average is: ", Math.ceil(sum / niz.length));
+// }
+
+// calculateAverage(data);
+
+// //Domaci:
+// data = [3,0, 24,1, 54,0, 123,1, 32, 63];
+//jedinice pomeriti na pocetak a nule na kraj
