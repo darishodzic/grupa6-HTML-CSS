@@ -987,3 +987,51 @@
 // //Domaci:
 // data = [3,0, 24,1, 54,0, 123,1, 32, 63];
 //jedinice pomeriti na pocetak a nule na kraj
+
+// data = [[1, 2, 3], 2];
+
+// console.log(data[0][2]);
+
+// function sortZeroToEnd() {
+//   arr = [3, 6, 0, 23, 0, 9, 44, 14, 0, 83, 22, 5, 0, 1];
+
+//   for (i = 0; i < arr.length; i++) {
+//     if (arr[i] === 0) {
+//       arr.splice(i, 1);
+//       arr.push(0);
+//     }
+//   }
+
+//   console.log(arr);
+// }
+
+// sortZeroToEnd();
+
+// sortZeroToEnd();
+
+// sortZeroToEnd();
+
+//==========================================
+
+// function sayHello(ime) {
+//   console.log("HELLO", ime);
+// }
+
+// sayHello("Hika");
+
+//==========================================
+
+// function sum(a, b) {
+//   console.log(a + b);
+// }
+
+// sum(3, 5);
+
+function mojaF() {
+  console.log("asd");
+  console.log("ccc");
+
+  return [1, 2, 3];
+}
+
+console.log(mojaF());
