@@ -1027,11 +1027,53 @@
 
 // sum(3, 5);
 
-function mojaF() {
-  console.log("asd");
-  console.log("ccc");
+// function mojaF() {
+//   console.log("a");
+// }
 
-  return [1, 2, 3];
-}
+// b = function () {
+//   console.log("b");
+// };
 
-console.log(mojaF());
+// b();
+
+// c = () => {
+//   console.log("c");
+// };
+
+//=====================================================
+
+// const a = 5;
+// console.log(a);
+// a = 7;
+// console.log(a);
+
+//=====================================================
+// for (index = 0; index < 7; index++) {
+//   const a = 5;
+//   a += 1;
+//   console.log(a);
+// }
+//============================================
+"use strict";
+
+// function mojaF() {
+//   let funA = 7;
+//   for (let i = 0; i < 5; i++) {
+//     let forA = 5;
+//     console.log(forA);
+//     console.log(funA);
+//   }
+// }
+
+// mojaF();
+
+//============================================
+
+const arr = [1, 2, 3];
+
+console.log(arr);
+
+arr[3] = "Hello World";
+
+console.log(arr);
