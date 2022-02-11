@@ -1070,10 +1070,83 @@
 
 //============================================
 
-const arr = [1, 2, 3];
+// const arr = [1, 2, 3];
 
-console.log(arr);
+// console.log(arr);
 
-arr[3] = "Hello World";
+// arr[3] = "Hello World";
 
-console.log(arr);
+// console.log(arr);
+
+//============================================
+
+// const car = {
+//   name: "Audi",
+//   color: "red",
+//   price: 5043,
+// };
+
+// const person = {
+//   name: "Vahid",
+//   lastname: "Gasnanin",
+//   age: 99,
+//   gender: "male",
+//   friends: ["Medzid"],
+//   run: () => {
+//     console.log("Vahid trci");
+//   },
+// };
+
+// person.run();
+
+// console.log([1, 2, 3].join("-"));
+
+// var library = [
+//   {
+//     author: "Bill Gates",
+//     title: "The Road Ahead",
+//     readingStatus: true,
+//   },
+//   {
+//     author: "Steve Jobs",
+//     title: "Walter Isaacson",
+//     readingStatus: true,
+//   },
+//   {
+//     author: "Suzanne Collins",
+//     title: "Mockingjay: The Final Book of The Hunger Games",
+//     readingStatus: false,
+//   },
+// ];
+
+// for (let i = 0; i < library.length; i++) {
+//   console.log(library[i].author, library[i].readingStatus);
+// }
+
+// function creatingUser() {
+//   const ime = prompt("Unesite Ime");
+//   const prezime = prompt("Unesite prezime");
+//   const godina = parseInt(prompt("Unesite Godina"));
+//   const visina = parseInt(prompt("Unesite Visinu"));
+
+//   const user = {
+//     ime: ime,
+//     prezime: prezime,
+//     godina: godina,
+//     visina: visina,
+//   };
+//   return user;
+// }
+
+// console.log(creatingUser());
+
+const car = {
+  name: "Audi",
+  model: "A7",
+};
+
+const keys = Object.keys(car);
+
+for (let key of keys) {
+  console.log(car[key]);
+}
