@@ -1140,13 +1140,132 @@
 
 // console.log(creatingUser());
 
-const car = {
-  name: "Audi",
-  model: "A7",
-};
+// const car = {
+//   name: "Audi",
+//   model: "A7",
+// };
 
-const keys = Object.keys(car);
+// const keys = Object.keys(car);
 
-for (let key of keys) {
-  console.log(car[key]);
+// for (let key of keys) {
+//   console.log(car[key]);
+// }
+
+// const cars = [];
+
+// function createCar(name, mark, outsideColor, insideColor) {
+//   return {
+//     name: name,
+//     mark: mark,
+//     outsideColor: outsideColor,
+//     insideColor: insideColor,
+//   };
+// }
+
+// for (let i = 0; i < 5; i++) {
+//   cars.push(createCar(i, "vw", "red", "black"));
+// }
+
+// console.log(cars);
+
+// const student = {
+//   name: "David Rayy",
+//   sclass: "VI",
+//   rollno: 12,
+// };
+
+// const keysOfStudent = Object.keys(student);
+
+// console.log(keysOfStudent.length);
+
+// const students = [
+//   {
+//     name: "Aldin",
+//     height: 187,
+//     gender: "male",
+//     age: 27,
+//   },
+//   {
+//     name: "Vahid",
+//     height: 187,
+//     gender: "male",
+//     age: 19,
+//   },
+//   {
+//     name: "Medzid",
+//     height: 187,
+//     gender: "male",
+//     age: 5,
+//   },
+//   {
+//     name: "Almir",
+//     height: 187,
+//     gender: "male",
+//     age: 29,
+//   },
+//   {
+//     name: "Damir",
+//     height: 187,
+//     gender: "male",
+//     age: 6,
+//   },
+// ];
+
+// function filterByAge(arr) {
+//   const noviArr = [];
+//   for (let el of arr) {
+//     if (el.age > 18) {
+//       noviArr.push(el);
+//     }
+//   }
+//   return noviArr;
+// }
+
+// newArrByage = filterByAge(students);
+// console.log(newArrByage);
+
+// osigh98fqiejoi
+// const o1 = {
+//   name: "Damir",
+//   height: 187,
+//   gender: "male",
+//   age: 6,
+//   // 982ffijosdfj
+//   location: {
+//     city: "NP",
+//     postcode: 36300,
+//   },
+// };
+
+// // osigh98fqiejoi = osigh98fqiejoi
+// const o2 = { ...o1, location: { ...o1.location } };
+
+// console.log(o1);
+// console.log(o2);
+// console.log("==============================");
+
+// o2.name = "dzemil";
+// o1.age = 200;
+// o2.location.postcode = 99999;
+
+// console.log(o1);
+// console.log(o2);
+
+// const a = [1, 2, 3];
+
+// const b = [...a];
+
+// b[0] = 7;
+// console.log(a);
+
+// console.log(b);
+
+const data = { a: 1, b: 2 };
+
+const keys = Object.keys(data);
+const arr = [];
+for (let el of keys) {
+  arr.push([el, data[el]]);
 }
+
+console.log(arr);
