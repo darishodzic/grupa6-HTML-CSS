@@ -1260,12 +1260,104 @@
 
 // console.log(b);
 
-const data = { a: 1, b: 2 };
+// const data = { a: 1, b: 2 };
 
-const keys = Object.keys(data);
-const arr = [];
-for (let el of keys) {
-  arr.push([el, data[el]]);
-}
+// const keys = Object.keys(data);
+// const arr = [];
+// for (let el of keys) {
+//   arr.push([el, data[el]]);
+// }
 
-console.log(arr);
+// console.log(arr);
+
+// function myDisplayer(arg) {
+//   console.log("====================");
+//   console.log(arg);
+//   console.log("====================");
+//   return 3;
+// }
+
+// function myCalculator(num1, num2, b) {
+//   let sum = num1 + num2;
+
+//   console.log("for");
+//   console.log("if");
+//   console.log("for");
+//   console.log("Pozivamo callback");
+//   b(sum);
+//   console.log("Callback se izvrsio");
+// }
+
+// myCalculator(5, 3);
+
+// const arr = ["Helloasdsad", "World", "Todayasdasdas", "Centar", "NIT"];
+
+// const a = (el) => {
+//   if (el.length > 6) {
+//     console.log(el);
+//   }
+// };
+
+// for (let i = 0; i < arr.length; i++) {
+//   a(arr[i], i);
+// }
+
+// function a() {
+//   console.log("L");
+// }
+
+// function forB(arr, callback) {
+//   for (let i = 0; i < arr.length; i++) {
+//     callback();
+//   }
+// }
+
+// arr.forEach(a);
+
+// forB(arr, a);
+
+// const numbers = [45, 4, 9, 16, 25];
+
+// numbers.forEach((el) => {
+//   console.log(el ** 2);
+// });
+
+// const numbers = [45, 4, 9, 16, 25, 13, 38, 60, 61, 52, 29];
+
+// numbers.forEach((el) => {
+//   if (el % 2 === 0) {
+//     console.log(el);
+//   }
+// });
+
+// const numbers = [45, 4, 9, 16, 25, 13, 38, 60, 61, 52, 29];
+// const evenNumbers = [];
+
+// numbers.forEach((el) => {
+//   if (el > 20) {
+//     evenNumbers.push(el);
+//   }
+// });
+
+// let str = "the quick brown fox";
+
+// let nStr = "";
+// str = str.split("");
+// str.forEach((el, i) => {
+//   if (i % 2 === 0) {
+//     nStr += el.toLowerCase();
+//   } else {
+//     nStr += el.toUpperCase();
+//   }
+// });
+
+// console.log(nStr);
+
+const data = [NaN, 0, 15, false, -22, "", undefined, 47, null];
+let brojac = 0;
+data.forEach((el) => {
+  if (!Boolean(el)) {
+    brojac++;
+  }
+});
+console.log(brojac);
