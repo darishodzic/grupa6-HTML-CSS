@@ -1353,11 +1353,95 @@
 
 // console.log(nStr);
 
-const data = [NaN, 0, 15, false, -22, "", undefined, 47, null];
-let brojac = 0;
-data.forEach((el) => {
-  if (!Boolean(el)) {
-    brojac++;
-  }
-});
-console.log(brojac);
+// const data = [NaN, 0, 15, false, -22, "", undefined, 47, null];
+// let brojac = 0;
+// data.forEach((el) => {
+//   if (!Boolean(el)) {
+//     brojac++;
+//   }
+// });
+// console.log(brojac);
+
+// const a = [1, 2, 3, 4];
+
+// const b = a.map((el, i) => {
+//   return el + i;
+// });
+
+// console.log(b);
+
+// const numbers = [45, 4, 25, 13, 38, 29];
+
+// const quad = numbers.map((number) => {
+//   return number ** 2;
+// });
+
+// console.log(quad);
+
+// const numbers = [45, 4, 25, 13, 38, 29];
+
+// const quad = numbers.map((number) => {
+//   return number * 2;
+// });
+// console.log(quad);
+
+// function stringItUp(arr) {
+//   return arr.map((el) => {
+//     return el.toString();
+//   });
+// }
+
+// console.log(stringItUp([2, 5, 100]));
+
+// function capitalizeNames(arr) {
+//   return arr.map((el) => {
+//     el = el.toLowerCase();
+//     el = el[0].toUpperCase() + el.slice(1);
+//     return el;
+//   });
+// }
+
+// console.log(capitalizeNames(["john", "JACOB", "jinGleHeimer", "schmidt"]));
+
+// function namesOnly(arr) {
+//   return arr.map((el) => {
+//     return el.name;
+//   });
+// }
+
+// console.log(
+//   namesOnly([
+//     {
+//       name: "Angelina Jolie",
+//       age: 80,
+//     },
+//     {
+//       name: "Eric Jones",
+//       age: 2,
+//     },
+//     {
+//       name: "Paris Hilton",
+//       age: 5,
+//     },
+//     {
+//       name: "Kayne West",
+//       age: 16,
+//     },
+//     {
+//       name: "Bob Ziroll",
+//       age: 100,
+//     },
+//   ])
+// );
+
+// function shortText(str) {
+//   str = str.split(" ");
+//   const newArr = str.map((el) => {
+//     return el[0];
+//   });
+//   return newArr.join(".");
+// }
+
+// console.log(shortText("George Raymond Richard Martin"));
+
+const numbers = [45, 4, 9, 16, 25, 13, 38, 60, 61, 52, 29];
