@@ -1444,4 +1444,87 @@
 
 // console.log(shortText("George Raymond Richard Martin"));
 
-const numbers = [45, 4, 9, 16, 25, 13, 38, 60, 61, 52, 29];
+// const numbers = [45, 4, 9, 16, 25, 13, 38, 60, 61, 52, 29];
+
+// const filtered = numbers.filter((el) => {
+//   return el > 30;
+// });
+
+// console.log(filtered);
+
+// const numbers = [45, 4, 9, 16, 25, 13, 38, 60, 61, 52, 29];
+// const even = numbers.filter((number) => number % 2 === 0);
+
+// console.log(even);
+
+// function fiveAndGreaterOnly(arr) {
+//   return arr.filter((el) => el >= 5);
+// }
+// console.log(fiveAndGreaterOnly([3, 6, 8, 2])); /// [6, 8]
+
+// function fiveCharactersOrFewerOnly(arr) {
+//   return arr.filter((el) => el.length <= 5);
+// }
+
+// console.log(
+//   fiveCharactersOrFewerOnly(["dog", "wolf", "by", "family", "eaten", "camping"])
+// ); // ["by", "dog", "wolf", "eaten"]
+
+// function peopleWhoBelongToTheIlluminati(arr) {
+//   return arr.filter((el) => el.member);
+// }
+// // test
+// console.log(
+//   peopleWhoBelongToTheIlluminati([
+//     { name: "Angelina Jolie", member: true },
+//     { name: "Eric Jones", member: false },
+//     { name: "Paris Hilton", member: true },
+//     { name: "Kayne West", member: false },
+//     { name: "Bob Ziroll", member: true },
+//   ])
+// );
+
+// const data = ["dog", "wolf", "by", "family", "eaten", "camping"];
+
+// const evenIndex = data.filter((el, i) => i % 2 === 0);
+// console.log(evenIndex);
+
+// const numbers = [45, 4, 9, 16, 25];
+
+// const isAllHigh = numbers.every((value) => {
+//   return value > 1;
+// });
+
+// console.log(isAllHigh);
+
+// const numbers = [46, 4, 6, 16, 26];
+
+// const isAllEven = numbers.every((number) => number % 2 === 0);
+// console.log(isAllEven);
+
+// const peoples = [
+//   { name: "Angelina Jolie", member: true },
+//   { name: "Eric Jones", member: false },
+//   { name: "Paris Hilton", member: true },
+//   { name: "Kayne West", member: false },
+//   { name: "Bob Ziroll", member: true },
+// ];
+
+// const isAllMembers = peoples.every((people) => people.member);
+// console.log(isAllMembers);
+
+// const numbers = [45, 4, 9, 16, 25];
+
+// const isAnyHigh = numbers.some((number) => {
+//   return number > 18;
+// });
+
+// console.log(isAnyHigh);
+
+const numbers = [45, 4, 9, 16, 25];
+
+const isAnyEven = numbers.some((num) => {
+  return num % 2 === 0;
+});
+
+console.log(isAnyEven);
