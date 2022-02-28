@@ -1521,10 +1521,102 @@
 
 // console.log(isAnyHigh);
 
-const numbers = [45, 4, 9, 16, 25];
+// function mojaF() {
+//   console.log("Hello");
+// }
 
-const isAnyEven = numbers.some((num) => {
-  return num % 2 === 0;
-});
+// mojaF();
 
-console.log(isAnyEven);
+// const a = [1, 2, 3];
+
+// const b = a.map(() => {});
+
+// console.log(b);
+
+// const numbers = [45, 4, 9, 16, 25, 13, 38, 60, 61, 52, 29];
+
+// const b = numbers.filter((el) => {
+//   return el > 15;
+// });
+
+// console.log(b);
+
+// const numbers = [45, 4, 9, 45, 16, 25, 13, 38, 60, 61, 52, 29];
+
+// const a = numbers.find((el) => {
+//   return el % 2 === 0;
+// });
+
+// console.log(a);
+
+// const numbers = [45, 4, 9, 45, 16, 25, 13, 38, 60, 61, 52, 29];
+
+// const b = numbers.includes(9);
+
+// console.log(b);
+
+// const a = [1, 2, 3, 4, 5, 5, 5, 5, 5, 5, 5];
+// const a2 = [];
+
+// a.forEach((e) => {
+//   if (e >= 5) {
+//     a2.push(e);
+//   }
+// });
+
+// console.log(a2);
+
+// function shifter(s) {
+//   const shiftChar = ["H", "I", "N", "O", "S", "X", "Z", "M", "W"];
+//   const arr = [...new Set(s.split(" "))]; // [who, is]
+//   let counter = 0;
+//   arr.forEach((word) => {
+//     const isShift = word.split("").every((l) => {
+//       return shiftChar.includes(l);
+//     });
+
+//     if (isShift) {
+//       counter += 1;
+//     }
+//   });
+//   return counter;
+// }
+
+// console.log(shifter("WHO IS WHO"));
+// console.log(shifter("JS"));
+// console.log(shifter("I III I III"));
+
+// function consecutiveOnes(nums) {
+//   let counter = 0;
+//   let maxIter = 0;
+//   for (let i = 0; i < nums.length; i++) {
+//     if (nums[i] === 1) {
+//       counter += 1;
+//     } else if (nums[i] === 0) {
+//       if (maxIter < counter) {
+//         maxIter = counter;
+//       }
+//       counter = 0;
+//     }
+//   }
+//   console.log(maxIter);
+//   return maxIter;
+// }
+
+// consecutiveOnes([1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 0]);
+
+// function consecutiveOnes(nums) {
+//   const strNums = nums.join("");
+//   let strZero = strNums.split("0");
+//   let maxLen = 0;
+//   strZero.forEach((el) => {
+//     if (el.length > maxLen) {
+//       maxLen = el.length;
+//     }
+//   });
+//   return maxLen;
+// }
+
+// console.log(consecutiveOnes([1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 0]));
+
+console.log(3 === 3 ? 1 : 2);
