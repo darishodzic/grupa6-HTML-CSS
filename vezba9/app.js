@@ -1619,4 +1619,31 @@
 
 // console.log(consecutiveOnes([1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 0]));
 
-console.log(3 === 3 ? 1 : 2);
+// console.log(3 === 3 ? 1 : 2);
+
+// console.log("%c Dzemil", "color:orange;font-weight:600;font-size:30px;");
+// console.log("======================");
+// console.log("%c Daris", "color:orange;font-weight:600;font-size:30px;");
+// console.log("======================");
+
+// console.table({
+//   a: "a",
+//   b: "b",
+// });
+
+// function a() {
+//   return b();
+// }
+// function b() {
+//   return a();
+// }
+
+// a();
+
+console.log("prvi");
+
+setTimeout(() => {
+  console.log("TIMER");
+}, 0);
+
+console.log("drugi");
