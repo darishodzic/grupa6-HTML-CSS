@@ -1640,10 +1640,95 @@
 
 // a();
 
-console.log("prvi");
+// console.log("prvi");
 
-setTimeout(() => {
-  console.log("TIMER");
-}, 0);
+// setTimeout(() => {
+//   console.log("TIMER");
+// }, 1000);
 
-console.log("drugi");
+// console.log("drugi");
+
+// let a = "HEllo world";
+
+// setTimeout(() => {
+//   console.log(a);
+// }, 2000);
+
+// console.log(a);
+
+// a = "world hellpo";
+
+// function jobAfter() {
+//   console.log("nesto posle zavrsnog posla");
+// }
+
+// function someJob(clb) {
+//   console.log("start job");
+//   for (let i = 0; i < 1200000000; i++) {}
+//   console.log("job end");
+//   clb();
+// }
+
+// someJob(jobAfter);
+
+// console.log("Code start-----");
+// let user = 0;
+
+// const myProm = new Promise((resolve, reject) => {
+//   setTimeout(() => {
+//     user = 5;
+//     resolve("uspesno");
+//   }, 2000);
+// });
+
+// let food = 0;
+
+// myProm
+//   .then(() => {
+//     console.log(user);
+//   })
+//   .catch((err) => {
+//     console.log("Promise rejected");
+//   })
+//   .finally(() => {
+//     console.log("CODE end------");
+//   });
+
+// try {
+//   let b = undefined;
+//   console.log("CODE start");
+
+//   b.map((el) => {
+//     console.log(el);
+//   });
+// } catch (error) {
+//   console.log("Code je failovo i ovo je u catch");
+//   // console.log(error);
+// }
+
+const myProm = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve(undefined);
+  }, 2000);
+});
+
+function handlerError() {
+  console.log("DESI SE NEKI error");
+  console.log("aksndjaslsadlsan");
+  console.log("aksndjaslsadlsan");
+  console.log("ERROR JE HANDLED");
+}
+
+async function getData() {
+  try {
+    const users = await myProm;
+
+    users.map((el) => {
+      console.log(el);
+    });
+  } catch (err) {
+    handlerError();
+  }
+}
+
+getData();
