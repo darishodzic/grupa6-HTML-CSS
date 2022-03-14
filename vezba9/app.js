@@ -1706,29 +1706,172 @@
 //   // console.log(error);
 // }
 
-const myProm = new Promise((resolve, reject) => {
-  setTimeout(() => {
-    resolve(undefined);
-  }, 2000);
-});
+// const myProm = new Promise((resolve, reject) => {
+//   setTimeout(() => {
+//     resolve(undefined);
+//   }, 2000);
+// });
 
-function handlerError() {
-  console.log("DESI SE NEKI error");
-  console.log("aksndjaslsadlsan");
-  console.log("aksndjaslsadlsan");
-  console.log("ERROR JE HANDLED");
-}
+// function handlerError() {
+//   console.log("DESI SE NEKI error");
+//   console.log("aksndjaslsadlsan");
+//   console.log("aksndjaslsadlsan");
+//   console.log("ERROR JE HANDLED");
+// }
 
-async function getData() {
-  try {
-    const users = await myProm;
+// async function getData() {
+//   try {
+//     const users = await myProm;
 
-    users.map((el) => {
-      console.log(el);
-    });
-  } catch (err) {
-    handlerError();
-  }
-}
+//     users.map((el) => {
+//       console.log(el);
+//     });
+//   } catch (err) {
+//     handlerError();
+//   }
+// }
 
-getData();
+// getData();
+
+// let value = 0;
+
+// const myProm = new Promise((resolve, reject) => {
+//   setTimeout(() => {
+//     resolve("REZULTAT");
+//   }, 2000);
+// });
+
+// async function getData() {
+//   const res = await myProm;
+//   console.log(res);
+// }
+
+// getData();
+
+// fetch("https://catfact.ninja/facts")
+//   .then((response) => {
+//     console.log(response);
+//     return response.json();
+//   })
+//   .then((response) => {
+//     console.log(response);
+//   })
+//   .catch(() => {
+//     console.log("Greska sa serverom");
+//   });
+
+// async function getData() {
+//   try {
+//     const response = await fetch("https://api.github.com/darishodzic");
+//     const resJson = await response.json();
+//     console.log(resJson);
+//   } catch (err) {
+//     console.log("PROBLEM SA SERVEROM");
+//   }
+// }
+
+// getData();
+
+// https://jsonplaceholder.typicode.com/users
+
+// fetch("https://jsonplaceholder.typicode.com/users")
+//   .then((response) => {
+//     console.log(response);
+//     return response.json();
+//   })
+//   .then((response) => {
+//     console.log(response);
+//   })
+//   .catch(() => {
+//     console.log("Greska sa serverom");
+//   });
+
+// fetch("https://catfact.ninja/facts")
+//   .then((response) => {
+//     return response.json();
+//   })
+//   .then((response) => {
+//     console.log(response);
+//   })
+//   .catch(() => {
+//     console.log("FETCH FAILED");
+//   });
+
+// async function getData() {
+//   const response = await fetch("https://catfact.ninja/facts");
+//   const responseJson = await response.json();
+//   console.log(responseJson);
+// }
+
+// getData();
+
+//https://jsonplaceholder.typicode.com/users
+
+// const a = 5;
+
+// function print(arg) {
+//   console.log(arg);
+// }
+
+// print(7);
+
+// for (let i = 0; i <; 3; i++) {
+//   const log = () => {
+//     console.log(i);
+//   };
+//   setTimeout(log, 200);
+// }
+
+// async function getData() {
+//   try {
+//     const response = await fetch("https://jsonplaceholder.typicode.com/users");
+//     const responseJson = await response.json();
+//     const formatedUsers = responseJson.map((el) => el.name);
+//     console.log(formatedUsers);
+//   } catch (err) {
+//     console.log(err);
+//   }
+// }
+
+// getData();
+
+// fetch("https://jsonplaceholder.typicode.com/users")
+//   .then((response) => {
+//     return response.json();
+//   })
+//   .then((response) => {
+//     const formatedUsers = response.map((el) => el.name);
+//     console.log(formatedUsers);
+//   })
+//   .catch((err) => {
+//     console.log(err);
+//   });
+
+// const el = document.getElementById("heading");
+// const el = document.getElementsByClassName("main");
+// const el = document.getElementsByTagName("h1");
+// const el = document.getElementsByName();
+// const el = document.querySelector("div");
+
+// const el = document.querySelector("h1");
+// el.style.backgroundColor = "red";
+// el.style.fontSize = "40px";
+// el.style.color = "blue";
+// console.log(el);
+
+// const els = document.querySelectorAll("h1");
+
+// const prvi = els[0];
+
+// const drugi = els[1];
+
+// prvi.style.backgroundColor = "red";
+// drugi.style.backgroundColor = "blue";
+
+// const main = document.getElementById("main");
+// const noviEl = document.createElement("h1");
+// noviEl.innerText = "NOVI EL";
+
+// main.appendChild(noviEl);
+
+// https://catfact.ninja/facts
