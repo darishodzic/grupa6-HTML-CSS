@@ -1055,7 +1055,6 @@
 //   console.log(a);
 // }
 //============================================
-"use strict";
 
 // function mojaF() {
 //   let funA = 7;
@@ -1873,5 +1872,21 @@
 // noviEl.innerText = "NOVI EL";
 
 // main.appendChild(noviEl);
+
+// https://catfact.ninja/facts
+
+// const main = document.getElementById("main");
+
+// main.classList.add("klasaPrekoJs");
+
+async function klik() {
+  const response = await fetch("https://catfact.ninja/facts");
+  const { data } = await response.json();
+  data.forEach((element) => {
+    const tag = document.createElement("h1");
+    tag.innerText = element.fact;
+    main.appendChild(tag);
+  });
+}
 
 // https://catfact.ninja/facts
