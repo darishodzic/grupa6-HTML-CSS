@@ -1879,14 +1879,57 @@
 
 // main.classList.add("klasaPrekoJs");
 
-async function klik() {
-  const response = await fetch("https://catfact.ninja/facts");
-  const { data } = await response.json();
-  data.forEach((element) => {
-    const tag = document.createElement("h1");
-    tag.innerText = element.fact;
-    main.appendChild(tag);
-  });
-}
+// async function klik() {
+//   const response = await fetch("https://catfact.ninja/facts");
+//   const { data } = await response.json();
+//   data.forEach((element) => {
+//     const tag = document.createElement("h1");
+//     tag.innerText = element.fact;
+//     main.appendChild(tag);
+//   });
+// }
 
 // https://catfact.ninja/facts
+
+// const input = document.getElementById("name");
+
+// input.addEventListener("change", inputHandler);
+// console.log(input);
+
+// function inputHandler() {
+//   console.log("YOU HAVE SOME CHANGES TO INPUT");
+// }
+
+// http://serene-fortress-45917.herokuapp.com/v1/auth/signup
+
+forma = document.getElementById("form");
+email = document.getElementById("email");
+namea = document.getElementById("name");
+password = document.getElementById("password");
+username = document.getElementById("username");
+
+const reqBody = {};
+
+forma.addEventListener("submit", (e) => {
+  e.preventDefault();
+  reqBody.email = email.value;
+  reqBody.name = namea.value;
+  reqBody.password = password.value;
+  reqBody.username = username.value;
+
+  fetch("http://serene-fortress-45917.herokuapp.com/v1/auth/signup", {
+    method: "POST",
+    body: JSON.stringify(reqBody),
+  })
+    .then((res) => {
+      return res.json();
+    })
+    .then((response) => {
+      console.log(response);
+    });
+});
+
+// fetch("http://serene-fortress-45917.herokuapp.com/v1/auth/signup", {
+//   body: {},
+//   method: "POST",
+// });
