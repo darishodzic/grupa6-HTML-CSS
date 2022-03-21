@@ -1880,8 +1880,10 @@
 // main.classList.add("klasaPrekoJs");
 
 // async function klik() {
+
 //   const response = await fetch("https://catfact.ninja/facts");
 //   const { data } = await response.json();
+
 //   data.forEach((element) => {
 //     const tag = document.createElement("h1");
 //     tag.innerText = element.fact;
@@ -1902,34 +1904,127 @@
 
 // http://serene-fortress-45917.herokuapp.com/v1/auth/signup
 
-forma = document.getElementById("form");
-email = document.getElementById("email");
-namea = document.getElementById("name");
-password = document.getElementById("password");
-username = document.getElementById("username");
+// forma = document.getElementById("form");
+// email = document.getElementById("email");
+// namea = document.getElementById("name");
+// password = document.getElementById("password");
+// username = document.getElementById("username");
 
-const reqBody = {};
+// const reqBody = {};
 
-forma.addEventListener("submit", (e) => {
-  e.preventDefault();
-  reqBody.email = email.value;
-  reqBody.name = namea.value;
-  reqBody.password = password.value;
-  reqBody.username = username.value;
+// forma.addEventListener("submit", (e) => {
+//   e.preventDefault();
+//   reqBody.email = email.value;
+//   reqBody.name = namea.value;
+//   reqBody.password = password.value;
+//   reqBody.username = username.value;
 
-  fetch("http://serene-fortress-45917.herokuapp.com/v1/auth/signup", {
-    method: "POST",
-    body: JSON.stringify(reqBody),
-  })
-    .then((res) => {
-      return res.json();
-    })
-    .then((response) => {
-      console.log(response);
-    });
-});
+//   fetch("http://serene-fortress-45917.herokuapp.com/v1/auth/signup", {
+//     method: "POST",
+//     body: JSON.stringify(reqBody),
+//   })
+//     .then((res) => {
+//       return res.json();
+//     })
+//     .then((response) => {
+//       console.log(response);
+//     });
+// });
 
 // fetch("http://serene-fortress-45917.herokuapp.com/v1/auth/signup", {
 //   body: {},
 //   method: "POST",
 // });
+
+// const main = document.getElementById("main");
+
+// async function klik() {
+//   const response = await fetch("https://catfact.ninja/facts");
+//   const { data } = await response.json();
+
+//   data.forEach((element, index) => {
+//     const tag = document.createElement("h1");
+//     tag.innerText = element.fact;
+//     tag.style.backgroundColor = index % 2 === 0 ? "red" : "blue";
+//     main.appendChild(tag);
+//   });
+// }
+
+// const bodyReq = {
+//   name: "DARIS",
+//   email: "daris@centarnit",
+//   username: "asd",
+//   password: "123",
+// };
+
+// fetch("http://serene-fortress-45917.herokuapp.com/v1/auth/signup", {
+//   method: "POST",
+//   body: JSON.stringify(bodyReq),
+// })
+//   .then((res) => {
+//     console.log(res);
+//   })
+//   .catch((err) => {
+//     console.log(err);
+//   });
+
+// fetch("https://catfact.ninja/facts")
+//   .then((res) => {
+//     return res.json();
+//   })
+//   .then((resJson) => {
+//     console.log(resJson);
+//   })
+//   .catch((err) => {
+//     console.log(err);
+//   })
+//   .finally(() => {
+//     console.log("FINALLy");
+//   });
+
+// async function getData() {
+//   try {
+//     const response = await fetch("https://catfact.ninja/facts");
+//     const responseJson = await response.json();
+//     console.log("Hello");
+//   } catch (err) {
+//     console.log(err);
+//   }
+// }
+
+// async function a() {
+//   await getData();
+//   console.log("asd");
+// }
+
+// a();
+
+setTimeout(() => {
+  console.log("TIMEOUT");
+}, 0);
+
+const myProm = new Promise((res, rej) => {
+  res("DARIS");
+});
+
+myProm.then(() => {
+  console.log("PROMISE");
+});
+myProm.then(() => {
+  console.log("PROMISE");
+});
+myProm.then(() => {
+  console.log("PROMISE");
+});
+myProm.then(() => {
+  console.log("PROMISE");
+});
+myProm.then(() => {
+  console.log("PROMISE");
+});
+myProm.then(() => {
+  console.log("PROMISE");
+});
+myProm.then(() => {
+  console.log("PROMISE");
+});
